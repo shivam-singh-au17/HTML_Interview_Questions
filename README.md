@@ -1,7 +1,7 @@
-# All Interview Questions
 
+# HTML INTERVIEW QUESTIONS : -
 
-### HTML Interview Questions
+## HTML Questions
 
 | No. | Questions |
 |---- | ---------
@@ -12,4 +12,4 @@
 
     An arrow function is a shorter syntax for a function expression and does not have its own **this, arguments, super, or new.target**. These functions are best suited for non-method functions, and they cannot be used as constructors.
 
-    **[⬆ Back to Top](#HTML-Interview-Questions)**
+    **[⬆ Back to Top](#HTML-Questions)**
