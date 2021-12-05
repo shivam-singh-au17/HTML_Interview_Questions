@@ -5,16 +5,15 @@
 
 | No. | Questions |
 |----|------------------------------------|
-|01. |[What is difference between HTML and XHTML?](#q-what-is-difference-between-html-and-xhtml)|
-|02. |[What are the building blocks of HTML5?](#q-what-are-the-building-blocks-of-html5)|
-|03. |[What are the semantic tags available in html5?](#q-what-are-the-semantic-tags-available-in-html5)|
-|04. |[Why you would like to use semantic tag?](#q-why-you-would-like-to-use-semantic-tag)|
-|05. |[What does a `<DOCTYPE html>` do?](#q-what-does-a-doctype-html-do)|
-|06. |[What happens when DOCTYPE is not given?](#q-what-happens-when-doctype-is-not-given)|
-|07. |[What are the new form elements in HTML5?](#q-what-are-the-new-form-elements-in-html5)|
-|08. |[How many new form elements are introduced in html5?](#q-how-many-new-form-elements-are-introduced-in-html5)|
-|09. |[What is difference between `span` tag and `div` tag?](#q-what-is-difference-between-span-tag-and-div-tag)|
-|10. |[What are optional closing tag?](#q-what-are-optional-closing-tag)|
+|01. |[What is difference between HTML and XHTML?](#what-is-difference-between-html-and-xhtml)|
+|03. |[What are the semantic tags available in html5?](#what-are-the-semantic-tags-available-in-html5)|
+|04. |[Why you would like to use semantic tag?](#why-you-would-like-to-use-semantic-tag)|
+|05. |[What does a `<DOCTYPE html>` do?](#what-does-a-doctype-html-do)|
+|06. |[What happens when DOCTYPE is not given?](#what-happens-when-doctype-is-not-given)|
+|07. |[What are the new form elements in HTML5?](#what-are-the-new-form-elements-in-html5)|
+|08. |[How many new form elements are introduced in html5?](#how-many-new-form-elements-are-introduced-in-html5)|
+|09. |[What is difference between `span` tag and `div` tag?](#what-is-difference-between-span-tag-and-div-tag)|
+|10. |[What are optional closing tag?](#what-are-optional-closing-tag)|
 
 
 ### 1. What is difference between HTML and XHTML?
@@ -27,6 +26,7 @@ The Extensible Hypertext Markup Language, or XHTML, has two important notes for 
 <div align="right">
     <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
 </div>
+
 
 ### 2. What are the semantic tags available in html5?
 
@@ -81,6 +81,7 @@ Syntax:
     <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
 </div>
 
+
 ### 4. What does a `<DOCTYPE html>` do?
 
 A DOCTYPE is always associated to a `DTD` ( **Document Type Definition** ). A DTD defines how documents of a certain type should be structured (i.e. a `button` can contain a `span` but not a `div`), whereas a DOCTYPE declares what DTD a document supposedly respects (i.e. this document respects the HTML DTD). For webpages, the DOCTYPE declaration is required. It is used to tell user agents what version of the HTML specifications your document respects. 
@@ -92,12 +93,9 @@ Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quir
 </div>
 
 
-### 1. What is difference between HTML and XHTML?
+### 5. What happens when DOCTYPE is not given?
 
-The Extensible Hypertext Markup Language, or XHTML, has two important notes for front end developers.
-
-1) It needs to be well formed, meaning all elements need to be closed and nested correctly or you will return errors.
-2) Since it is more strict than HTML is requires less pre-processing by the browser, which may improve your sites performance.
+The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
 <div align="right">
     <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
