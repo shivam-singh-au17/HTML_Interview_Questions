@@ -6,14 +6,12 @@
 | No. | Questions |
 |----|------------------------------------|
 |01. |[What is difference between HTML and XHTML?](#1-what-is-difference-between-html-and-xhtml)|
-|03. |[What are the semantic tags available in html5?](#2-what-are-the-semantic-tags-available-in-html5)|
-|04. |[Why you would like to use semantic tag?](#3-why-you-would-like-to-use-semantic-tag)|
-|05. |[What does a `<DOCTYPE html>` do?](#4-what-does-a-doctype-html-do)|
-|06. |[What happens when DOCTYPE is not given?](#5-what-happens-when-doctype-is-not-given)|
-|07. |[What are the new form elements in HTML5?](#what-are-the-new-form-elements-in-html5)|
-|08. |[How many new form elements are introduced in html5?](#how-many-new-form-elements-are-introduced-in-html5)|
-|09. |[What is difference between `span` tag and `div` tag?](#what-is-difference-between-span-tag-and-div-tag)|
-|10. |[What are optional closing tag?](#what-are-optional-closing-tag)|
+|02. |[What are the semantic tags available in html5?](#2-what-are-the-semantic-tags-available-in-html5)|
+|03. |[Why you would like to use semantic tag?](#3-why-you-would-like-to-use-semantic-tag)|
+|04. |[What does a `<DOCTYPE html>` do?](#4-what-does-a-doctype-html-do)|
+|05. |[What happens when DOCTYPE is not given?](#5-what-happens-when-doctype-is-not-given)|
+|06. |[What is difference between `span` tag and `div` tag?](#6-what-is-difference-between-span-tag-and-div-tag)|
+|07. |[What are optional closing tag?](#7-what-are-optional-closing-tag)|
 
 
 ### 1. What is difference between HTML and XHTML?
@@ -102,3 +100,25 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 </div>
 
 
+### 6. What is difference between `span` tag and `div` tag?
+
+The primary difference between div and span tag is their default behavior. By default, a `<div>` is a **block-level-element** and a `<span>` is an **inline element**.
+
+* `<div>` is a block level element which means it will render it on it\'s own line with a width of a 100% of the parent element.
+* `<span>` is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by it\'s content.
+
+```html
+<div>Demo Text, with <span>some other</span> text.</div>
+```
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## 7. What are optional closing tag?
+
+`<p>, <li>, <td>, <tr>, <th>, <html>, <body>`, etc. don\'t have to provide end tag. Whenever browser hits a new tag it automatically ends the previous tag. 
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
