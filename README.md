@@ -24,7 +24,7 @@ The Extensible Hypertext Markup Language, or XHTML, has two important notes for 
 2) Since it is more strict than HTML is requires less pre-processing by the browser, which may improve your sites performance.
 
 <div align="right">
-    <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -64,7 +64,7 @@ Syntax:
 ```
 
 <div align="right">
-    <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -78,7 +78,7 @@ Syntax:
 * It\'s easier to read and edit, which saves time and money during maintenance.
 
 <div align="right">
-    <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -89,7 +89,7 @@ A DOCTYPE is always associated to a `DTD` ( **Document Type Definition** ). A DT
 Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quirks mode` matching this DOCTYPE forreading the document. If a user agent doesn't recognize a correct DOCTYPE, it will trigger the `quirks mode`.
 
 <div align="right">
-    <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
