@@ -98,7 +98,7 @@ Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quir
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
 <div align="right">
-    <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
