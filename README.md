@@ -5,11 +5,11 @@
 
 | No. | Questions |
 |----|------------------------------------|
-|01. |[What is difference between HTML and XHTML?](#what-is-difference-between-html-and-xhtml)|
-|03. |[What are the semantic tags available in html5?](#what-are-the-semantic-tags-available-in-html5)|
-|04. |[Why you would like to use semantic tag?](#why-you-would-like-to-use-semantic-tag)|
-|05. |[What does a `<DOCTYPE html>` do?](#what-does-a-doctype-html-do)|
-|06. |[What happens when DOCTYPE is not given?](#what-happens-when-doctype-is-not-given)|
+|01. |[What is difference between HTML and XHTML?](#What-is-difference-between-html-and-xhtml)|
+|03. |[What are the semantic tags available in html5?](#What-are-the-semantic-tags-available-in-html5)|
+|04. |[Why you would like to use semantic tag?](#Why-you-would-like-to-use-semantic-tag)|
+|05. |[What does a `<DOCTYPE html>` do?](#What-does-a-doctype-html-do)|
+|06. |[What happens when DOCTYPE is not given?](#What-happens-when-doctype-is-not-given)|
 |07. |[What are the new form elements in HTML5?](#what-are-the-new-form-elements-in-html5)|
 |08. |[How many new form elements are introduced in html5?](#how-many-new-form-elements-are-introduced-in-html5)|
 |09. |[What is difference between `span` tag and `div` tag?](#what-is-difference-between-span-tag-and-div-tag)|
