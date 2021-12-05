@@ -12,6 +12,15 @@
 |05. |[What happens when DOCTYPE is not given?](#5-what-happens-when-doctype-is-not-given)|
 |06. |[What is difference between `span` tag and `div` tag?](#6-what-is-difference-between-span-tag-and-div-tag)|
 |07. |[What are optional closing tag?](#7-what-are-optional-closing-tag)|
+|08. |[What is a self closing tag?](#8-what-is-a-self-closing-tag)|
+|09. |[Explain the difference between block elements and inline elements?](#9-explain-the-difference-between-block-elements-and-inline-elements)|
+|10.|[What are semantic and non-semantic elements?](#10-what-are-semantic-and-non-semantic-elements)|
+|11. |[What is the purpose of meta tags?](#11-what-is-the-purpose-of-meta-tags)|
+|12. |[What is the purpose of the `alt` attribute on images?](#12-what-is-the-purpose-of-the-alt-attribute-on-images)|
+|13. |[What is the difference between `<section>` and `<div>`?](#13-what-is-the-difference-between-section-and-div)|
+|14. |[When should you use `section`, `div` or `article`?](#14-when-should-you-use-section-div-or-article)|
+|15. |[Can a web page contain multiple `<header>` elements? What about `<footer>` elements?](#15-can-a-web-page-contain-multiple-header-elements-what-about-footer-elements)|
+
 
 
 ### 1. What is difference between HTML and XHTML?
@@ -115,9 +124,226 @@ The primary difference between div and span tag is their default behavior. By de
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## 7. What are optional closing tag?
+### 7. What are optional closing tag?
 
 `<p>, <li>, <td>, <tr>, <th>, <html>, <body>`, etc. don\'t have to provide end tag. Whenever browser hits a new tag it automatically ends the previous tag. 
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+
+### 8. What is a self closing tag?
+
+In HTML5 it is not strictly necessary to close certain HTML tags. The tags that aren\'t required to have specific closing tags are called “self closing” tags.
+
+An example of a self closing tag is something like a line break (`<br />`) or the meta tag (`<meta>`). This means that the following are both acceptable:
+
+```html
+<meta charset="UTF-8">
+...
+<meta charset="UTF-8" />
+```
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+### 9. Explain the difference between block elements and inline elements?
+
+* block elements `<h1>, <p>, <ul>, <ol>, <li>`,
+* inline elements `<span>, <a>, <strong>, <i>, <img>`
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+### 10. What are semantic and non-semantic elements?
+
+* **Semantic elements**: clearly describes its meaning to both the browser and the developer. For example: `<form>`, `<table>`,  `<article>`, `<aside>`, `<details>`, `<figcaption>`, `<figure>`, `<footer>`, `<header>`, `<main>`, `<mark>`, `<nav>`, `<section>`, `<summary>`, `<time>` clearly defines its content.
+  
+* **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+
+### 11. What is the purpose of meta tags?
+
+The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+        <!--Recommended Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="language" content="english"> 
+        <meta http-equiv="content-type" content="text/html">
+        <meta name="author" content="Author Name">
+        <meta name="designer" content="Designer Name">
+        <meta name="publisher" content="Publisher Name">
+        <meta name="no-email-collection" content="name@email.com">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <!--Search Engine Optimization Meta Tags-->
+        <meta name="description" content="Project Description">
+        <meta name="keywords" content="Software Engineer,Product Manager,Project Manager,Data Scientist">
+        <meta name="robots" content="index,follow">
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="web">
+        <meta name="robots" content="noodp">
+        
+        <!--Optional Meta Tags-->
+        <meta name="distribution" content="web">
+        <meta name="web_author" content="">
+        <meta name="rating" content="">
+        <meta name="subject" content="Personal">
+        <meta name="title" content=" - Official Website.">
+        <meta name="copyright" content="Copyright 2020">
+        <meta name="reply-to" content="">
+        <meta name="abstract" content="">
+        <meta name="city" content="Bangalore">
+        <meta name="country" content="INDIA">
+        <meta name="distribution" content="">
+        <meta name="classification" content="">
+    
+        <!--Meta Tags for HTML pages on Mobile-->
+        <meta name="format-detection" content="telephone=yes"/>
+        <meta name="HandheldFriendly" content="true"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+        <!--http-equiv Tags-->
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+      
+    <title>HTML5 Meta Tags</title>
+  </head>
+  <body>
+       ...
+  </body>
+</html>
+```
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+
+### 12. What is the purpose of the `alt` attribute on images?
+
+The `alt` attribute provides alternative information for an image if a user cannot view it. The `alt` attribute should be used to describe any images except those which only serve a decorative purposes, in which case it should be left empty.
+
+```html
+<img src="pancakes.png" alt="Stack of blueberry pancakes with powdered sugar">
+```
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+
+### 13. What is the difference between `<section>` and `<div>`?
+
+The `<section>` tag creates independent sections within a webpage having logically connected content. And the `<div>` tag is an empty container specifying a division or a section.
+
+**The `<section>` Element**
+
+According to the W3C specification, the `<section>` tag means that the content inside this element is grouped. In other words, the content relates to a single theme. It must be an entry in the outline of the page.
+
+**Example**
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Section Tag Example</title>
+  </head>
+  <body>
+    <h1>W3Docs</h1>
+    <section>
+      <h2>W3Docs Sections</h2>
+      <ul>
+        <li>Books</li>
+        <li>Quizzes</li>
+        <li>Snippets</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Books</h3>
+      <p>Learn HTML</p>
+      <p>Learn CSS</p>
+      <p>Learn Javascript</p>
+    </section>
+  </body>
+</html>
+```
+
+**The `<div>` Element**
+
+The `<div>` element only represents its child elements and doesn\'t have a special meaning. It can be used with the `lang`, `title`, and `class` attributes to add semantics that is common to a group of consecutive elements. This element can also be used in a `<dl>` tag and wrap groups of `<dt>` and `<dd>` elements.
+
+**Example**
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Div Tag Example</title>
+    <style>
+      div {
+        background-color: #87f5b3
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Example</h1>
+    <div>
+      <h2>A heading in a <div> tag.</h2>
+      <p>Some text in a <div> tag.</p>
+    </div>
+    <p>Here is some other text in a <p> tag.</p>
+  </body>
+</html>
+```
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+
+### 14. When should you use `section`, `div` or `article`?
+
+* `<section>`, group of content inside is related to a single theme, and should appear as an entry in an outline of the page. It\'s a chunk of related content, like a subsection of a long article, a major part of the page (eg the news section on the homepage), or a page in a webapp\'s tabbed interface. A section normally has a heading (title) and maybe a footer too.
+
+* `<article>`, represents a complete, or self-contained, composition in a document, page, application, or site and that is, in principle, independently distributable or reusable, e.g. in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+
+* `<div>`, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+
+### 15. Can a web page contain multiple `<header>` elements? What about `<footer>` elements?
+
+Yes, header elements can be used multiple times in documents. A `<header>` tag must be present for all articles, sections, and pages, although a `<footer>` tag is not necessary.
+
+**From W3C standards**
+
+```html
+A header element is intended to usually contain the section's heading (an h1–h6 element or an hgroup 
+element), but this is not required. The header element can also be used to wrap a section's table of 
+contents, a search form, or any relevant logos.
+```
+
+```html
+The footer element represents a footer for its nearest ancestor sectioning content or sectioning root 
+element. A footer typically contains information about its section such as who wrote it, links to related 
+documents, copyright data, and the like.
+```
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
