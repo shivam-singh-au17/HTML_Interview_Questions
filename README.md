@@ -8,7 +8,7 @@
 |1 | [What is difference between HTML and XHTML](#What-is-difference-between-HTML-and-XHTML?)|
 
 
-1. ### What is difference between HTML and XHTML?
+### 1. What is difference between HTML and XHTML?
 
 The Extensible Hypertext Markup Language, or XHTML, has two important notes for front end developers.
 
