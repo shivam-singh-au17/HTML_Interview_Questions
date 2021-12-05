@@ -5,13 +5,15 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [What are lambda or arrow functions](#what-are-lambda-or-arrow-functions)|
+|1 | [What is difference between HTML and XHTML](#What-is-difference-between-HTML-and-XHTML?)|
 
 
-1. ### What are lambda or arrow functions
+1. ### What is difference between HTML and XHTML?
 
-    An arrow function is a shorter syntax for a function expression and does not have its own **this, arguments, super, or new.target**. These functions are best suited for non-method functions, and they cannot be used as constructors.
+The Extensible Hypertext Markup Language, or XHTML, has two important notes for front end developers.
 
+1) It needs to be well formed, meaning all elements need to be closed and nested correctly or you will return errors.
+2) Since it is more strict than HTML is requires less pre-processing by the browser, which may improve your sites performance.
 
 <div align="right">
     <b><a href="#HTML-Questions">⬆ Back to Top</a></b>
