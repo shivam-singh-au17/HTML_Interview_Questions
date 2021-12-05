@@ -20,6 +20,7 @@
 |13. |[What is the difference between `<section>` and `<div>`?](#13-what-is-the-difference-between-section-and-div)|
 |14. |[When should you use `section`, `div` or `article`?](#14-when-should-you-use-section-div-or-article)|
 |15. |[Can a web page contain multiple `<header>` elements? What about `<footer>` elements?](#15-can-a-web-page-contain-multiple-header-elements-what-about-footer-elements)|
+|16. |[How many new form elements are introduced in html5?](#16-how-many-new-form-elements-are-introduced-in-html5)|
 
 
 
@@ -348,3 +349,65 @@ documents, copyright data, and the like.
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
+
+
+### 16. How many new form elements are introduced in html5?
+
+|Sl.No| Element     | Description   |
+|-----|-------------|---------------------------|
+| 01. |color        |Gives the end user a native color picker to choose a color.|
+| 02. |date         |Offers a datepicker.|
+| 03. |datetime     |An element to choose both date and time.|
+| 04. |datetime-local |An element to choose both date and time, with local settings support.|
+| 05. |email        |A field for entering e-mail address(es).|
+| 06. |month       |Choose a full month.|
+| 07. |number       |Picking a number.|
+| 08. |range        |Offers a slider to set to a certain value/position.|
+| 09. |search       |A field for search queries.|
+| 10. |tel          |Choosing a telephone number.|
+| 11. |time         |Input a certain time.|
+| 12. |url          |Entering a URL.|
+| 13. |week         |Picking a specific week.|
+
+
+**Example:**
+
+```html
+<input type="color" value="#b97a57">
+
+<input type="date" value="2020-06-08">
+
+<input type="datetime" value="2020-06-09T20:35:34.32">
+
+<input type="datetime-local" value="2020-06-09T22:41">
+
+<input type="email" value="robert@robertnyman.com">
+
+<input type="month" value="2020-06">
+
+<input type="number" value="4">
+
+<input type="range" value="15">
+
+<!-- Note: If not set, default attribute values are min="0", max="100", step="1". -->
+
+<input type="search" value="[Any search text]">
+
+<input type="tel" value="[Any numeric value]">
+
+<!-- Note: Most web browsers seem to let through any value at this time. -->
+
+<input type="time" value="22:38">
+
+<input type="url" value="https://www.google.com/">
+
+<!-- Note: requires a protocol like http://, ftp:// etc in the beginning. -->
+
+
+<input type="week" value="2020-W24">
+```
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
