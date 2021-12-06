@@ -26,7 +26,7 @@
 
 
 
-### 1. What is difference between HTML and XHTML?
+## 1. What is difference between HTML and XHTML?
 
 The Extensible Hypertext Markup Language, or XHTML, has two important notes for front end developers.
 
@@ -38,7 +38,7 @@ The Extensible Hypertext Markup Language, or XHTML, has two important notes for 
 </div>
 
 
-### 2. What are the semantic tags available in html5?
+## 2. What are the semantic tags available in html5?
 
 HTML5 semantic tags define the function and the category of your text, simplifying the work for browsers and search engines, as well as developers.
 
@@ -78,7 +78,7 @@ Syntax:
 </div>
 
 
-### 3. Why you would like to use semantic tag?
+## 3. Why you would like to use semantic tag?
 
 * Search Engine Optimization, accessibility, repurposing, light code. 
 * Many visually impaired person rely on browser speech and semantic tag helps to interpret page content clearly.
@@ -92,7 +92,7 @@ Syntax:
 </div>
 
 
-### 4. What does a `<DOCTYPE html>` do?
+## 4. What does a `<DOCTYPE html>` do?
 
 A DOCTYPE is always associated to a `DTD` ( **Document Type Definition** ). A DTD defines how documents of a certain type should be structured (i.e. a `button` can contain a `span` but not a `div`), whereas a DOCTYPE declares what DTD a document supposedly respects (i.e. this document respects the HTML DTD). For webpages, the DOCTYPE declaration is required. It is used to tell user agents what version of the HTML specifications your document respects. 
 
@@ -103,7 +103,7 @@ Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quir
 </div>
 
 
-### 5. What happens when DOCTYPE is not given?
+## 5. What happens when DOCTYPE is not given?
 
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
@@ -112,7 +112,7 @@ The web page is rendered in quirks mode. The web browsers engines use quirks mod
 </div>
 
 
-### 6. What is difference between `span` tag and `div` tag?
+## 6. What is difference between `span` tag and `div` tag?
 
 The primary difference between div and span tag is their default behavior. By default, a `<div>` is a **block-level-element** and a `<span>` is an **inline element**.
 
@@ -127,7 +127,7 @@ The primary difference between div and span tag is their default behavior. By de
     <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
-### 7. What are optional closing tag?
+## 7. What are optional closing tag?
 
 `<p>, <li>, <td>, <tr>, <th>, <html>, <body>`, etc. don\'t have to provide end tag. Whenever browser hits a new tag it automatically ends the previous tag. 
 
@@ -135,7 +135,7 @@ The primary difference between div and span tag is their default behavior. By de
     <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
-### 8. What is a self closing tag?
+## 8. What is a self closing tag?
 
 In HTML5 it is not strictly necessary to close certain HTML tags. The tags that aren\'t required to have specific closing tags are called “self closing” tags.
 
@@ -151,7 +151,7 @@ An example of a self closing tag is something like a line break (`<br />`) or th
     <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
-### 9. Explain the difference between block elements and inline elements?
+## 9. Explain the difference between block elements and inline elements?
 
 * block elements `<h1>, <p>, <ul>, <ol>, <li>`,
 * inline elements `<span>, <a>, <strong>, <i>, <img>`
@@ -160,7 +160,7 @@ An example of a self closing tag is something like a line break (`<br />`) or th
     <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
-### 10. What are semantic and non-semantic elements?
+## 10. What are semantic and non-semantic elements?
 
 * **Semantic elements**: clearly describes its meaning to both the browser and the developer. For example: `<form>`, `<table>`,  `<article>`, `<aside>`, `<details>`, `<figcaption>`, `<figure>`, `<footer>`, `<header>`, `<main>`, `<mark>`, `<nav>`, `<section>`, `<summary>`, `<time>` clearly defines its content.
   
@@ -171,7 +171,7 @@ An example of a self closing tag is something like a line break (`<br />`) or th
 </div>
 
 
-### 11. What is the purpose of meta tags?
+## 11. What is the purpose of meta tags?
 
 The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
 
@@ -234,7 +234,7 @@ The META elements can be used to include name/value pairs describing properties 
 </div>
 
 
-### 12. What is the purpose of the `alt` attribute on images?
+## 12. What is the purpose of the `alt` attribute on images?
 
 The `alt` attribute provides alternative information for an image if a user cannot view it. The `alt` attribute should be used to describe any images except those which only serve a decorative purposes, in which case it should be left empty.
 
@@ -247,7 +247,7 @@ The `alt` attribute provides alternative information for an image if a user cann
 </div>
 
 
-### 13. What is the difference between `<section>` and `<div>`?
+## 13. What is the difference between `<section>` and `<div>`?
 
 The `<section>` tag creates independent sections within a webpage having logically connected content. And the `<div>` tag is an empty container specifying a division or a section.
 
@@ -316,7 +316,7 @@ The `<div>` element only represents its child elements and doesn\'t have a speci
 </div>
 
 
-### 14. When should you use `section`, `div` or `article`?
+## 14. When should you use `section`, `div` or `article`?
 
 * `<section>`, group of content inside is related to a single theme, and should appear as an entry in an outline of the page. It\'s a chunk of related content, like a subsection of a long article, a major part of the page (eg the news section on the homepage), or a page in a webapp\'s tabbed interface. A section normally has a heading (title) and maybe a footer too.
 
@@ -329,7 +329,7 @@ The `<div>` element only represents its child elements and doesn\'t have a speci
 </div>
 
 
-### 15. Can a web page contain multiple `<header>` elements? What about `<footer>` elements?
+## 15. Can a web page contain multiple `<header>` elements? What about `<footer>` elements?
 
 Yes, header elements can be used multiple times in documents. A `<header>` tag must be present for all articles, sections, and pages, although a `<footer>` tag is not necessary.
 
@@ -352,7 +352,7 @@ documents, copyright data, and the like.
 </div>
 
 
-### 16. How many new form elements are introduced in html5?
+## 16. How many new form elements are introduced in html5?
 
 |Sl.No| Element     | Description   |
 |-----|-------------|---------------------------|
