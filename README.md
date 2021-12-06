@@ -1,9 +1,6 @@
+# HTML INTERVIEW QUESTIONS
 
-# HTML INTERVIEW QUESTIONS : -
 
-<div align="center">
-    <h2>HTML Questions</h2>
-</div>
 
 | No. | Questions |
 |----|------------------------------------|
