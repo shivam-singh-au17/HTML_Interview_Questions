@@ -122,7 +122,7 @@ The primary difference between div and span tag is their default behavior. By de
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 ### 7. What are optional closing tag?
@@ -130,9 +130,8 @@ The primary difference between div and span tag is their default behavior. By de
 `<p>, <li>, <td>, <tr>, <th>, <html>, <body>`, etc. don\'t have to provide end tag. Whenever browser hits a new tag it automatically ends the previous tag. 
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
-
 
 ### 8. What is a self closing tag?
 
@@ -147,7 +146,7 @@ An example of a self closing tag is something like a line break (`<br />`) or th
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 ### 9. Explain the difference between block elements and inline elements?
@@ -156,7 +155,7 @@ An example of a self closing tag is something like a line break (`<br />`) or th
 * inline elements `<span>, <a>, <strong>, <i>, <img>`
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 ### 10. What are semantic and non-semantic elements?
@@ -166,7 +165,7 @@ An example of a self closing tag is something like a line break (`<br />`) or th
 * **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content.
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -229,7 +228,7 @@ The META elements can be used to include name/value pairs describing properties 
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -242,7 +241,7 @@ The `alt` attribute provides alternative information for an image if a user cann
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -311,7 +310,7 @@ The `<div>` element only represents its child elements and doesn\'t have a speci
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -324,7 +323,7 @@ The `<div>` element only represents its child elements and doesn\'t have a speci
 * `<div>`, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -347,7 +346,7 @@ documents, copyright data, and the like.
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
 
@@ -408,6 +407,6 @@ documents, copyright data, and the like.
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#">⬆ Back to Top</a></b>
 </div>
 
